@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#searchsection > p, #searchresulttitle
+{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button
+{
+    width: 100%;
+    float: right;
+}
+form
+{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+form > input, select
+{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+form > input[type="text"]
+{
+    width: 50%;
+}
+form > select
+{
+    width: 54.7%;
+}
+form > label
+{
+    padding-right: 30%;
+}
+form > input[type="submit"]
+{
+    width: 100%;
+}
+
+#searchsection
+{
+    margin: 15px auto;
+    width: 15vw;
+}
+#searchresult
+{
+    padding-left: 65px;
+    margin: 15px;
+}
+#filmdetails
+{
+    display: flex;
+    justify-content: center;
+}
+
+.displayfilm
+{
+    width: 15vw;
+    margin: 20px;
+    padding: 10px;
+    display: inline-flex;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.resultposter > img
+{
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+.resultdetails > p
+{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.displayfilmdetails
+{
+    margin: 20px;
+    display: inline-flex;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+.detailedposter
+{
+    float: left;
+    margin-right: 20px;
+}
+.details > p
+{
+    margin-bottom: 30px;
+}
